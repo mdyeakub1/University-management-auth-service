@@ -1,4 +1,5 @@
-import express, { Application, Request, Response } from 'express'
+import express, { Application } from 'express'
+import usersRoute from './app/modules/users/users.route'
 import cors from 'cors'
 const app: Application = express()
 
@@ -8,8 +9,7 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World!')
-})
+// Application route
+app.use('/api/v1/users/', usersRoute)
 
 export default app
