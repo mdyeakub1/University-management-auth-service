@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/api/v1/users/', usersRouter)
 
 //Testing
-app.get('/', async (req: Request, res: Response) => {
+app.get('/', async (req:  res: Response) => {
   res.send('Working Successfully')
 })
 
