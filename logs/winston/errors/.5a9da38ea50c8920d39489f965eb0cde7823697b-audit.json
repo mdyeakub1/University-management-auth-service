@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/errors/.5a9da38ea50c8920d39489f965eb0cde7823697b-audit.json",
+    "files": [
+        {
+            "date": 1686208116905,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/errors/phu-2023-06-08-13-error.log",
+            "hash": "aa30cb0a5c071a33f17f47c5411edc5baa7019ad65b3b15e759ec5eb0cd23b2c"
+        },
+        {
+            "date": 1686217877535,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/errors/phu-2023-06-08-15-error.log",
+            "hash": "c283ed92169922cadf0219e42ebbfd8caaabf629672814f21fee208d2ed3c98c"
+        },
+        {
+            "date": 1686218454518,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/errors/phu-2023-06-08-16-error.log",
+            "hash": "da7a6c8d7cb83300de8974688871538292ee0c09558da2dbe360275bd69a8469"
+        },
+        {
+            "date": 1686222471701,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/errors/phu-2023-06-08-17-error.log",
+            "hash": "bc49266fcc62183c5b7e12f749b4a71e9e912b3bd058b4777957525a5008af4f"
+        },
+        {
+            "date": 1686227000702,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/errors/phu-2023-06-08-18-error.log",
+            "hash": "fe605643518ecc82eeb8bb8b3508c3f9281f5f7c547ae7fc04461ac43a122e01"
+        }
+    ],
+    "hashType": "sha256"
+}
