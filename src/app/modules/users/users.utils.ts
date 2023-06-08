@@ -1,4 +1,5 @@
-import { User } from './users.model'
+import { User } from "./users.model"
+
 
 export const findLastUserId = async () => {
   const lastUser = await User.findOne({}, { id: 1, _id: 0 })
@@ -11,8 +12,7 @@ export const findLastUserId = async () => {
 }
 
 export const generateUserId = async () => {
-  const currentId = (await findLastUserId()) || (0).toString().padStart(5, '0') //00000
-  //increment by 1
+  const currentId = (await findLastUserId()) || (0).toString().padStart(5, '0') 
   const incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0')
   return incrementedId
 }
