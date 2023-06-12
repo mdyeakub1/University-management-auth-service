@@ -1,35 +1,50 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/.c2ba72d38f96a74159ccb5e7282f751334f9891e-audit.json",
-  "files": [
-    {
-      "date": 1686208116901,
-      "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-13-successes.log",
-      "hash": "0c78f361a6472299ea795fdddd167345585d2b381dc9ff4eac7e73565229a414"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1686217877529,
-      "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-15-successes.log",
-      "hash": "5800b2e5c2095e3f87c117b318e8c975a8b19558064dee08df5da0ca6a6a6dee"
-    },
-    {
-      "date": 1686218454513,
-      "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-16-successes.log",
-      "hash": "44d621ba49c5ced08aa2a629fa30caa48fdd17cd423a2d3ea6dc77b175e6b23f"
-    },
-    {
-      "date": 1686222471696,
-      "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-17-successes.log",
-      "hash": "b493b2e851433b470dc43403eeb8de31f4d21808398326506a6c814d1a390a3e"
-    },
-    {
-      "date": 1686227000697,
-      "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-18-successes.log",
-      "hash": "0a2e10863037b3e1ff92459b5df4a1d31dc276a1f643f6758cd3b8df56f75d3d"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/.c2ba72d38f96a74159ccb5e7282f751334f9891e-audit.json",
+    "files": [
+        {
+            "date": 1686208116901,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-13-successes.log",
+            "hash": "0c78f361a6472299ea795fdddd167345585d2b381dc9ff4eac7e73565229a414"
+        },
+        {
+            "date": 1686217877529,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-15-successes.log",
+            "hash": "5800b2e5c2095e3f87c117b318e8c975a8b19558064dee08df5da0ca6a6a6dee"
+        },
+        {
+            "date": 1686218454513,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-16-successes.log",
+            "hash": "44d621ba49c5ced08aa2a629fa30caa48fdd17cd423a2d3ea6dc77b175e6b23f"
+        },
+        {
+            "date": 1686222471696,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-17-successes.log",
+            "hash": "b493b2e851433b470dc43403eeb8de31f4d21808398326506a6c814d1a390a3e"
+        },
+        {
+            "date": 1686227000697,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-08-18-successes.log",
+            "hash": "0a2e10863037b3e1ff92459b5df4a1d31dc276a1f643f6758cd3b8df56f75d3d"
+        },
+        {
+            "date": 1686310056877,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-09-17-successes.log",
+            "hash": "e09a1602900907926727f7f253ee2f27dd76d197c1c0b7afd5518ffbdc118de7"
+        },
+        {
+            "date": 1686312978368,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-09-18-successes.log",
+            "hash": "643502bd01dd21ec28c6eb5cf6e533d6f4312f527b2b8b4ce566af6ab103d970"
+        },
+        {
+            "date": 1686315601873,
+            "name": "/Users/syedabusayeedshemon/Development/phero/pum/university-management-auth-service/logs/winston/successes/phu-2023-06-09-19-successes.log",
+            "hash": "1df6b0d1dd7495b8a0aefef7c38df62c27f0cb684dd9fb4ea91a4bf7b3e2eabe"
+        }
+    ],
+    "hashType": "sha256"
 }

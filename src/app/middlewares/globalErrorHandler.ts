@@ -1,16 +1,18 @@
-import { Request, Response, NextFunction } from 'express'
+/* eslint-disable no-console */
+/* eslint-disable no-unused-expressions */
+import { ErrorRequestHandler } from 'express'
 import config from '../../config'
 import { IGenericErrorMessage } from '../../interfaces/error'
 import handleValidationError from '../../errors/handleValidationError'
 import ApiError from '../../errors/ApiError'
 import { Error } from 'mongoose'
+import { errorLogger } from '../../shared/logger'
 
-const globalErrorHandler = (
-  error,
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+  config.env === 'development'
+    ? console.log('globalErrorHandler')
+    : errorLogger.error('globalErrorHandler')
+
   let statusCode = 5000
   let message = 'somethign went wrong!'
   let errorMessages: IGenericErrorMessage[] = []
