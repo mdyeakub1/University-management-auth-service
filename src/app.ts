@@ -1,8 +1,7 @@
 import express, { Application } from 'express'
 import cors from 'cors'
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
-import { UserRoutes } from './app/modules/users/user.route'
-import { SemesterRoutes } from './app/modules/academicSemester/academicSemester.route'
+import router from './app/routers'
 const app: Application = express()
 
 app.use(cors())
@@ -12,8 +11,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // Application route
-app.use('/api/v1/users/', UserRoutes)
-app.use('/api/v1/academic-semester/', SemesterRoutes)
+app.use('/api/v1/', router)
 
 // Api Testing
 // app.get('/', async(req, res)=>{

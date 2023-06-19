@@ -49,7 +49,10 @@ academicSemesterSchema.pre('save', async function (next) {
     year: this.year,
   })
   if (isExist) {
-    throw new ApiError(httpStatus.CONFLICT, 'Academic semester already exist !')
+    throw new ApiError(
+      httpStatus.CONFLICT,
+      'Academic semester is already exist !'
+    )
   }
   next()
 })
