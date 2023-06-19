@@ -21,6 +21,7 @@ const createUser: RequestHandler = catchAsync(
   }
 )
 
+//test
 export const UserController = {
   createUser,
 }
