@@ -1,0 +1,36 @@
+{
+"student":{
+    "name": {
+    "firstName": "Md ",
+    "lastName": "Yeakub",
+    "middleName": "roni"
+  },
+  "gender": "male",
+  "dateOfBirth": "24-04-1998",
+  "email": "mezbaul@gmail.com",
+  "contactNo": "01800000006",
+  "emergencyContactNo": "01800000006",
+  "bloodGroup": "A+",
+  "presentAddress": "ctg",
+  "permanentAddress": "ctg",
+  "guardian": {
+      "fatherName":"Mojibur rahaman",
+      "fatherOccupation":"Businessman",
+      "fatherContactNo": "01892837487",
+      "motherName": "Roshon Ara",
+      "motherOccupation": "House Wife",
+      "motherContactNo": "01827898763",
+      "address": "Noakhali"
+  },
+  "localGuardian":{
+      "name":"ismail hossen",
+      "occupation": "teacher",
+      "contactNo": "01800000006",
+      "address":"Dhaka"
+  },
+  "academicFaculty": "649443937e9cf49054c59d67",
+  "academicDepartment": "649443c27e9cf49054c59d69",
+  "academicSemester": "649444417e9cf49054c59d6c",
+  "profileImage": ""
+}
+}

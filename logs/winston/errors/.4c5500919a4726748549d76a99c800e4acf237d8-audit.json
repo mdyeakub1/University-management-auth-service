@@ -64,6 +64,26 @@
             "date": 1687417404183,
             "name": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/university-management-auth-service/logs/winston/errors/phu-2023-22-06-13-error.log",
             "hash": "6094586f25fda0815bd5c505bfb269ccecc2b9f919f0a05a866b02c0c228eeb3"
+        },
+        {
+            "date": 1687426118412,
+            "name": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/university-management-auth-service/logs/winston/errors/phu-2023-22-06-15-error.log",
+            "hash": "c4bb7fbd07f7d6d8891c34d8f9662ad46fddb88b6fdaf2690839c09816113643"
+        },
+        {
+            "date": 1687429278052,
+            "name": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/university-management-auth-service/logs/winston/errors/phu-2023-22-06-16-error.log",
+            "hash": "7425396b661b64682e74a8515ab8199c9788b5895e1e29a680fb8313dfc7e532"
+        },
+        {
+            "date": 1687432092645,
+            "name": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/university-management-auth-service/logs/winston/errors/phu-2023-22-06-17-error.log",
+            "hash": "bca30698f63cac7410d546c4b861123937ddf512640d4836e525d24041ebdea0"
+        },
+        {
+            "date": 1687437006740,
+            "name": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/university-management-auth-service/logs/winston/errors/phu-2023-22-06-18-error.log",
+            "hash": "f38b6b785b3037d4828e47da41234f5dd99e2bb8d4a2b12014b74ae55e452345"
         }
     ],
     "hashType": "sha256"

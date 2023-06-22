@@ -5,9 +5,9 @@ import { UserController } from './user.controllers'
 const router = express.Router()
 
 router.post(
-  '/create-user',
+  '/create-student',
   validateRequest(UserValidation.createUserZodSchema),
-  UserController.createUser
+  UserController.createStudent
 )
 
 export const UserRoutes = router
