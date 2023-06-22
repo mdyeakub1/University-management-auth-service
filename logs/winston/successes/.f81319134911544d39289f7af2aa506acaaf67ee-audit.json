@@ -1,20 +1,20 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/pum/university-management-auth-service/logs/winston/successes/.f81319134911544d39289f7af2aa506acaaf67ee-audit.json",
+  "files": [
+    {
+      "date": 1686810022490,
+      "name": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/pum/university-management-auth-service/logs/winston/successes/phu-2023-15-06-12-success.log",
+      "hash": "93f728a529bd790d2776d25fcf5e31d4700965f60a4647333765efb320d48c29"
     },
-    "auditLog": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/pum/university-management-auth-service/logs/winston/successes/.f81319134911544d39289f7af2aa506acaaf67ee-audit.json",
-    "files": [
-        {
-            "date": 1686810022490,
-            "name": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/pum/university-management-auth-service/logs/winston/successes/phu-2023-15-06-12-success.log",
-            "hash": "93f728a529bd790d2776d25fcf5e31d4700965f60a4647333765efb320d48c29"
-        },
-        {
-            "date": 1686812529853,
-            "name": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/pum/university-management-auth-service/logs/winston/successes/phu-2023-15-06-13-success.log",
-            "hash": "65a0c7b065e92832b9bf3429da964bf88c56e268e2b45c903e007bf6acc0ce2f"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686812529853,
+      "name": "/Users/syedabusayeedshemon/Development/phero/programming-hero-um/pum/university-management-auth-service/logs/winston/successes/phu-2023-15-06-13-success.log",
+      "hash": "65a0c7b065e92832b9bf3429da964bf88c56e268e2b45c903e007bf6acc0ce2f"
+    }
+  ],
+  "hashType": "sha256"
 }
