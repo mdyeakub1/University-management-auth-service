@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 import catchAsync from '../../../shared/catchAsync'
-import sendReponse from '../../../shared/sendResponse'
+import sendResponse from '../../../shared/sendResponse'
 import { IAcademicFaculty } from './academicFaculty.interface'
 import httpStatus from 'http-status'
 import { AcademicFacultyService } from './academicFaculty.service'
@@ -14,7 +14,7 @@ const createAcademicFaculty = catchAsync(
     const result = await AcademicFacultyService.createAcademicFaculty(
       academicFacultyData
     )
-    sendReponse<IAcademicFaculty>(res, {
+    sendResponse<IAcademicFaculty>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic faculty created successfully!',
@@ -32,7 +32,7 @@ const getAllAcademicFaculties = catchAsync(
       filters,
       paginationOptions
     )
-    sendReponse<IAcademicFaculty[]>(res, {
+    sendResponse<IAcademicFaculty[]>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic faculty retrived successfully!',
@@ -47,7 +47,7 @@ const getSingleAcademicFaculty = catchAsync(
     const id = req.params.id
 
     const result = await AcademicFacultyService.getSingleFaculty(id)
-    sendReponse<IAcademicFaculty>(res, {
+    sendResponse<IAcademicFaculty>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic faculty retrive successfully!',
@@ -64,7 +64,7 @@ const updateAcademicFaculty = catchAsync(
       id,
       updatedData
     )
-    sendReponse<IAcademicFaculty>(res, {
+    sendResponse<IAcademicFaculty>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic faculty updated successfully!',
@@ -78,7 +78,7 @@ const deleteAcademicFaculty = catchAsync(
     const id = req.params.id
 
     const result = await AcademicFacultyService.deleteAcademicFaculty(id)
-    sendReponse<IAcademicFaculty>(res, {
+    sendResponse<IAcademicFaculty>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic faculty deleted successfully!',

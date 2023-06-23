@@ -1,6 +1,6 @@
 import httpStatus from 'http-status'
 import { IAcademicDepartment } from './academicDepartment.interface'
-import sendReponse from '../../../shared/sendResponse'
+import sendResponse from '../../../shared/sendResponse'
 import catchAsync from '../../../shared/catchAsync'
 import { Request, Response } from 'express'
 import { AcademicDepartmentService } from './academicDepartment.service'
@@ -14,7 +14,7 @@ const createAcademicDepartment = catchAsync(
     const result = await AcademicDepartmentService.createAcademicDepartment(
       academicDepartmentData
     )
-    sendReponse<IAcademicDepartment>(res, {
+    sendResponse<IAcademicDepartment>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic department created successfully!',
@@ -33,7 +33,7 @@ const getAllAcademicDepartment = catchAsync(
       paginationOptions
     )
 
-    sendReponse<IAcademicDepartment[]>(res, {
+    sendResponse<IAcademicDepartment[]>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic department retrived successfully!',
@@ -50,7 +50,7 @@ const getSingleAcademicDepartment = catchAsync(
     const result = await AcademicDepartmentService.getSingleAcademicDepartment(
       id
     )
-    sendReponse<IAcademicDepartment>(res, {
+    sendResponse<IAcademicDepartment>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic department retrive successfully!',
@@ -68,7 +68,7 @@ const updateAcademicDepartment = catchAsync(
       id,
       updatedDate
     )
-    sendReponse<IAcademicDepartment>(res, {
+    sendResponse<IAcademicDepartment>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic department update successfully!',
@@ -82,7 +82,7 @@ const deleteAcademicDepartment = catchAsync(
     const id = req.params.id
 
     const result = await AcademicDepartmentService.deleteAcademicDepartment(id)
-    sendReponse<IAcademicDepartment>(res, {
+    sendResponse<IAcademicDepartment>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic department delete successfully!',
